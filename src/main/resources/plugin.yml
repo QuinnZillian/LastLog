@@ -27,16 +27,16 @@ permissions:
       lastlog.self: true
   lastlog.lastlog:
     description: "execute the /lastlog command"
-    default: op
+    default: *
   lastlog.firstlog:
     description: "execute the /firstlog command"
-    default: op
+    default: *
   lastlog.loginfo:
     description: "execute the /loginfo command"
-    default: op
+    default: *
   lastlog.notify:
     description: "get notified when a new player joins"
-    default: op
+    default: *
   lastlog.self:
     description: "query information about yourself"
-    default: op
+    default: *
